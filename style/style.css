@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Raleway:wght@800&display=swap');
+*{
+    margin: 0;
+    padding:0px 10px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.nav-items{
+    display: flex;
+    font-family: 'Poppins';
+    font-size: smaller;
+    text-align: center;
+    flex-wrap: wrap;
+    /* margin-top: 20px; */
+}
+
+.nav-logo{
+    max-width:90px;
+    margin-right:180px;
+    /* margin-top: 20px; */
+}
+
+.navbar-btn{
+    padding: 5px 30px;
+    background-color: transparent;
+    border:1px solid black;
+}
+
+.first-section{
+    background-color: #50515f;
+    padding: 30px 0px;
+    padding-bottom: 80px;
+}
+
+.items{
+    color:#f1f1f1;
+    margin-right: 25px;
+}
+.navbar-btn{
+    color:#f1f1f1;
+    border-color: #919191;
+}
+
+.img1{
+    width:500px;
+    height: 590px;
+    object-fit: cover;
+}
+
+.content-section{
+    margin-top: 50px;
+    display:flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+
+}
+
+.right-section>h1{
+    color:#f1f1f1;
+    font-size:250%;
+    font-family: Raleway;
+}
+.right-section>p{
+    color:#b4b4b4;
+    font-family: 'Poppins';
+    font-size: small;
+}
+
+.right-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+
+}
+
+.email-icon{
+    width:20px;
+}
+.email-part{
+    display:flex;
+    align-items: center;
+    background-color: #fff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.email-part>input{
+    border:0px;
+    border-color: #fdfdfd;
+}
+
+.send-email-btn{
+    background-color: #4ad690;
+    padding:10px 30px;
+    color:#fdfdfd;
+    font-weight: 700;
+    border:0px;
+    margin: 5px -5px;
+}
+
+.section-title{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin: 80px 0px;
+    font-family: 'Poppins';
+    font-size: x-large;
+   flex-wrap: wrap;
+
+}
+
+.insights{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+   flex-wrap: wrap;
+
+}
+
+.bold-fonts{
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Poppins';
+}
+.grey-fonts{
+    font-size:medium;
+    font-family: 'Poppins';
+    color: #50515f;
+}
+
+
+.img2{
+    height:590px;
+    width:1150px;
+    object-fit: cover;
+    object-position:20px 10px;
+    margin-bottom: 70px;
+}
+
+.title2{
+    font-size: xx-large;
+}
+
+.section3{
+    display:flex;
+   /* flex-wrap: wrap; */
+}
+
+.img3{
+    height:450px;
+    width:420px;
+    object-fit:cover;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+
+
+}
+
+.left-section>h2{
+ font-size: xx-large;
+ font-family: 'Poppins';
+ font-weight: bolder;
+}
+
+.left-section>p{
+    color:#7c7c7c;
+    font-family: 'Poppins';
+    font-size: small;
+    font-weight: 500;
+    padding: 20px 8px;
+}
+
+.lets-talk-btn{
+    background-color: #4ad690;
+    padding:10px 30px;
+    color:#fdfdfd;
+    font-weight: 700;
+    border:0px;
+    margin: 5px -5px;
+}
+
+.fourth-section{
+    display:flex;
+    margin: 50px 0px;
+    flex-wrap: wrap;
+
+}
+
+.fourth-section-right-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img4{
+    height:600px;
+    width:550px;
+    object-fit: cover;
+    object-position:20px 10px;
+    margin-bottom: 70px;
+}
+
+.fifth-section{
+    display:flex;
+    /* flex-wrap: wrap; */
+}
+
+.img5{
+    height:550px;
+    width:550px;
+    object-fit: cover;
+    object-position:20px 10px;
+    margin-bottom: 70px;
+}
+
+.team-section{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.team-about{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+
+}
+
+.team-about>h2{
+    font-family: 'Poppins';
+    font-size: xx-large;
+}
+
+.team-about>p{
+    font-family: 'Poppins';
+    font-weight:500;
+    color:#50515f;
+}
+
+
+.team-members{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.member-photo{
+    height:500px;
+    width:330px;
+    object-fit: cover;
+}
+
+.member{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:30px 0px;
+    flex-wrap: wrap;
+
+}
+
+.member>h3{
+    font-family: 'Poppins';
+}
+
+.member>p{
+    font-family: 'Poppins';
+    font-size: x-small;
+    color:#50515f;
+}
+.team-see-more-btn{
+    display:flex;
+    justify-content: center;
+}
+.see-more-btn{
+    background-color: #4ad690;
+    padding:10px 30px;
+    color:#fdfdfd;
+    font-weight: 700;
+    border:0px;
+    margin: 5px -5px;
+}
+
+footer{
+    background-color: #1d1b1b;
+    padding:50px 0px;
+    margin:30px -20px;
+
+}
+
+.feature-section{
+    color:white;
+    font-family: 'Poppins';
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.selected-ul{
+    font-weight: bold;
+}
+
+.our-products{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icons{
+    height:18px;
+    width:18px;
+    font-weight:bolder;
+    filter: invert(90%) saturate(100%) contrast(100%);
+    border-radius: 50px;
+    padding:10px 10px;
+    background-color: #cccccc;
+}
+
+.above-line{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.social-icons{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.logo-footer{
+    height:50px;
+    width:145px;
+}
+
+.line{
+    border: 1px solid #7e7e7e;
+    margin:40px 30px;
+}
+
+.other-li{
+    font-weight: lighter;
+}
+
+@media screen and (max-width:700px){
+    .img2{
+        max-width: 100%;
+        height: auto;
+    }
+    .section3{
+        display: flex;
+        flex-direction:column;
+    }
+    .fifth-section{
+        display:flex;
+        flex-direction:column;
+    }
+    .content-section{
+        display:flex;
+        flex-direction:column;
+
+    }
+}
+@media screen and (max-width:300px){
+    .img1{
+        max-width: 100%;
+        height: auto;
+    }
+    .img2{
+        max-width: 100%;
+        height: auto;
+    }
+    .img3{
+        max-width: 100%;
+        height: auto;
+    }
+    .img4{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .img5{
+        max-width: 100%;
+        height: auto;
+    }
+    .email-part{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .team-about{
+        max-width: 100%;
+        height: auto;
+    }
+}
